@@ -16,14 +16,14 @@
 
 / {
     behaviors {
-            mosl: momentary_sticky_holdtap {
+            HTSL: holdtap_stickylayer {
                 compatible = "zmk,behavior-hold-tap";
-                label = "MOSLHT";
+                label = "HTSL";
                 #binding-cells = <2>;
                 tapping-term-ms = <150>;
                 quick-tap-ms = <0>;
                 flavor = "hold-preferred";
-                bindings = <&mo>, <&sl>;
+                bindings = <&kp>, <&sl>;
             };
         };
     macros {
@@ -69,7 +69,7 @@
    &kp ESC   &kp Q &kp D &kp R &kp W &kp B                      &kp J  &kp F  &kp U    &kp P    &kp EXCL   &kp C_VOL_DN
    &kp LSHFT &kp A &kp S &kp H &kp T &kp G                      &kp Y  &kp N  &kp E    &kp O    &kp I      &kp RSFT
    &kp LCTRL &kp Z &kp X &kp M &kp C &kp V                      &kp K  &kp L  &kp CMMA &kp DOT  &kp QMARK  &kp RALT
-          &kp LCMD  &lt NAVNUM SPC   &kp TAB                    &kp ENTER     &lt SYMBOLS BSPC  &mosl RCMD OSL
+          &kp LCMD  &kp SPC  &lt NAVNUM TAB                     &lt SYMBOLS ENTER      &kp BSPC &HTSL RCMD OSL
                         >;
                 };
 
