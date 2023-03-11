@@ -89,7 +89,7 @@
    &trans     &kp COLON &kp AMPS   &kp LT   &kp GT   &kp PRCNT     &kp TILDE  &kp LBRC        &kp RBRC     &kp PIPE  &kp EXCL  &kp C_VOL_UP
    &trans     &kp SEMI  &kp DOLLAR &kp LPAR &kp RPAR &kp SQT       &kp DQT    &kp LBKT        &kp RBKT     &kp UNDER &kp BSLH  &trans
    &trans     &none     &kp CARET  &kp AT   &kp HASH &kp GRAVE     &kp EQUAL  &kp KP_ASTERISK &kp KP_MINUS &kp PLUS  &kp SLASH &trans
-                                   &trans &trans &trans            &trans &trans &trans
+                                   &trans   &trans   &trans        &trans  &trans  &trans
                         >;
                 };
      	osl_layer {
@@ -98,7 +98,7 @@
    &trans   &kp LG(LS(N5))  &kp LC(LEFT)    &kp LC(UP)  &kp LC(RIGHT)   &kp LG(LS(N4))      &none   &kp F7  &kp F8  &kp F9  &kp F10 &bt BT_PRV
    &kp CAPS &kp LG(Z)       &kp LG(X)       &kp LG(C)   &kp LG(V)       &kp LG(LA(LS(V)))   &none   &kp F4  &kp F5  &kp F6  &kp F11 &bt BT_NXT
    &trans   &none           &kp LG(B)       &kp LG(I)   &kp LG(U)       &none               &none   &kp F1  &kp F2  &kp F3  &kp F12 &bt BT_CLR
-                                            &trans      &trans          &trans              &to WORKMAN     &to OSL &trans
+                                            &trans      &to WORKMAN     &to NAVNUM          &to SYMBOLS  &trans  &trans
                     >;
                 };
 
